@@ -1,0 +1,7 @@
+> library(RCurl)
+Loading required package: bitops
+> library(networkD3)
+> library(rjson)
+> sankeyNetwork(Links = netData, Nodes = NODES, Source = "source", Target = "target", Value = "value", NodeID = "name", width = 700, fontSize = 12, nodeWidth = 30)
+> sankeyNetwork(Links = EngLinks, Nodes = EngNodes, Source = "source", Target = "target", Value = "value", NodeID = "name", width = 700, fontSize = 12, nodeWidth = 30)
+> save.image("~/Desktop/R_variables.RData")
