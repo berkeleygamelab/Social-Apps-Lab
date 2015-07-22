@@ -1,0 +1,6 @@
+
+> library(RCurl)
+Loading required package: bitops
+> library(networkD3)
+> library(rjson)
+> forceNetwork(Links = netData, Nodes = NODES, Source = "source", Target = "target", Value = "value", NodeID = "name", Group = "groups", opacity = 0.8)
